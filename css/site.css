@@ -1,0 +1,20 @@
+:root {
+    --bg: #c0868f;
+    --font: "Archivo", sans-serif;
+    --font-display: "Permanent Marker", cursive;
+    --hotpink: #f84818;
+    --orange: #f84818;
+    --black: rgba(52, 219, 197, 0);
+    --gradient: linear-gradient(35deg, var(--orange), var(--hotpink));
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: auto;
+    min-height: 100vh;
+    font-family: var(--font);
+  }
+  
